@@ -1,0 +1,29 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: F5F5F5;
+}
+.logo {
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+/* identical to box height */
+
+letter-spacing: 0.03em;
+position: absolute;
+width: 145px;
+height: 31px;
+left: 215px;
+top: 24px;
+margin: 24px 1240px 25px 215px;
+}
+.logo-color {color: #2196F3;}
+.navi-list {
+    display:flex;
+    position: absolute;
+    width: 281px;
+    height: 16px;
+    left: 453px;
+    top: 32px;
+    list-style-type: none;}
