@@ -1,28 +1,119 @@
-body{
-    font-family: 'Roboto', sans-serif;
-    background-color: F5F5F5;
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --white-text-color: #ffffff;
+  --btn-bgc: #f5f4fa;
 }
+body {
+  color: var(--primary-text-color);
+  background-color: F5F5F5;
+  }
+.link {text-decoration: none;
+     }
+
+  /* header */
+/* logo */
 .logo {
-font-family: 'Raleway';
+  color: #000000;
+  font-family: 'Raleway';
 font-style: normal;
 font-weight: 700;
 font-size: 26px;
 line-height: 31px;
-/* identical to box height */
-
 letter-spacing: 0.03em;
-position: absolute;
-width: 145px;
-height: 31px;
-left: 215px;
-top: 24px;
+text-decoration: none;
+  }
+.logo-color {
+  color: var(--accent-color);
 }
-.logo-color {color: #2196F3;}
-.navi-list {
-    display:flex;
+.logo:hover,
+.logo:focus {
+  color: var(--accent-color);
+}
+
+.nav {text-align: center;
+list-style: none;}
+
+/* site-nav */
+.nav .link {
+  color: var(--title-text-color);
+}
+.nav .link:hover,
+.nav .link:focus {
+  color: var(--accent-color);
+}
+
+/* contacts */
+.contacts {text-align: right;}
+.contacts .link {
+  color: var(--primary-text-color);
+}
+.contacts .link:hover,
+.contacts .link:focus {
+  color: var(--accent-color);
+}
+
+/* main */
+
+.section-title {
+  color: var(--title-text-color);
+}
+
+.benefits .title {
+  color: var(--title-text-color);
+  text-transform: uppercase;
+}
+
+.teem .title {
+  color: var(--title-text-color);
+}
+
+.hero {background-color: #2F303A;
     position: absolute;
-    width: 281px;
-    height: 16px;
-    left: 453px;
-    top: 32px;
-    list-style-type: none;}
+    width: 1600px;
+    height: 600px;}
+.hero-title {
+    color: var(--white-text-color);
+}
+
+/* buttons */
+.button {
+    color: var(--primary-text-color);
+    background-color: var(--white-text-color);
+  }
+  
+  .button.main {
+    color: var(--white-text-color);
+    background-color: var(--accent-color);
+  }
+  .button.main:hover,
+  .button.main:focus {
+    background-color: var(--btn-bgc);
+    color: var(--title-text-color);
+  }
+  
+  .button.secondary {
+    color: var(--title-text-color);
+    background-color: var(--btn-bgc);
+  }
+  .button.secondary:hover,
+  .button.secondary:focus {
+    color: var(--white-text-color);
+    background-color: var(--accent-color);
+  }
+
+  /* footer */
+.footer {
+     background-color: #2F303A;
+    text-decoration: none;
+}
+.footer-logo {color: var(--white-text-color);
+}
+.adress {
+    color: var(--white-text-color);
+}
+.contacts {
+    color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
+    }
