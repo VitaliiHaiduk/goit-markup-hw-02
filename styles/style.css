@@ -6,9 +6,9 @@
   --btn-bgc: #f5f4fa;
 }
 body {
-  color: var(--primary-text-color);
-  background-color: #f5f5f5;
   font-family: Roboto, sans-serif;
+  color: var(--primary-text-color);
+  background-color: #f5f5f5;  
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -196,13 +196,13 @@ text-align: center;
   color: var(--accent-color);
 }
 
-.contacts {
+.contacts-footer {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
 
-.contacts:hover,
-.contacts:focus {
+.contacts-footer:hover,
+.contacts-footer:focus {
   color: var(--accent-color);
 }
 
