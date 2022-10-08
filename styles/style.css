@@ -13,7 +13,7 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
-.link {
+.page-link {
   text-decoration: none;
 }
 
@@ -62,14 +62,14 @@ body {
   letter-spacing: 0.02em;
 }
 
-.site-nav .link {
+.site-nav .page-link {
   color: var(--title-text-color);
 }
-.site-nav .link:hover,
-.site-nav .link:focus {
+.site-nav .page-link:hover,
+.site-nav .page-link:focus {
   color: var(--accent-color);
 }
-.site-nav .link.current {
+.site-nav .page-link.current {
   color: var(--accent-color);
 }
 
@@ -80,11 +80,11 @@ body {
   line-height: 1.15;
   letter-spacing: 0.02em;
 }
-.list.contacts .link {
+.list.contacts .page-link {
   color: var(--primary-text-color);
 }
-.list.contacts .link:hover,
-.list.contacts .link:focus {
+.list.contacts .page-link:hover,
+.list.contacts .page-link:focus {
   color: var(--accent-color);
 }
 
