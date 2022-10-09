@@ -35,21 +35,13 @@ body {
 /* logo */
 .logo {
   color: #000000;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   text-decoration: none;
 }
 .logo-color {
-  color: var(--accent-color);
-}
-.logo-color:hover {
-  color: var(--title-text-color);
-}
-
-.logo:hover,
-.logo:focus {
   color: var(--accent-color);
 }
 
@@ -173,14 +165,6 @@ text-align: center;
   color: var(--white-text-color);
 }
 
-.page-footer .logo:hover,
-.page-footer .logo:focus {
-  color: var(--accent-color);
-}
-.page-footer .logo-color:hover,
-.page-footer .logo-color:focus {
-  color: var(--white-text-color);
-}
 
 .page-footer .list {
   font-style: normal;
